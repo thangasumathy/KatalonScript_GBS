@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Commodity Prefix_attr</name>
+   <tag></tag>
+   <elementGuidId>a0da2ee5-51f8-4b2c-bcbc-470e0d74821d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[28]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>cffbb856-dc15-409a-8166-a3e5844e4198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>15e396b8-9e0b-4440-9767-fb6fbbbdd61d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>attr  attr-input-blk</value>
+      <webElementGuid>f1e91465-9e84-4d07-88f8-c382f29a9823</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;review-table_wrapper&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;DTFC_ScrollWrapper&quot;]/div[@class=&quot;DTFC_LeftWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyLiner&quot;]/table[@class=&quot;gbs-alt-review-table compact stripe hover af dataTable no-footer DTFC_Cloned&quot;]/tbody[1]/tr[@class=&quot;attribute-row odd&quot;]/td[@class=&quot;context-menu-one&quot;]/input[@class=&quot;attr  attr-input-blk&quot;]</value>
+      <webElementGuid>998202c2-f078-4462-a381-e1c47d4448ee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[28]</value>
+      <webElementGuid>4ba80fe5-6faa-4339-ba6e-e29f7453317b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='review-table_wrapper']/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[15]/td[2]/input</value>
+      <webElementGuid>94a5c275-d580-41a2-9393-e46d65d0ae39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/table/tbody/tr[15]/td[2]/input</value>
+      <webElementGuid>b418712b-d597-44e4-8e27-0f9a42e6be7d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

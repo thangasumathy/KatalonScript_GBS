@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create AF Project</description>
+   <name>Create AF Project</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>674024e5-8036-4008-b3ec-b77aec01a475</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3867c4c-c94d-4020-81a9-ddbd0a80509a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\Sumathy\\GBS_AF_AC_MV_Sample File.xlsx'</defaultValue>
+      <description></description>
+      <id>b3867c4c-c94d-4020-81a9-ddbd0a80509a</id>
+      <masked>false</masked>
+      <name>File</name>
+   </variable>
+</TestCaseEntity>

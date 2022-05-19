@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_December (1)</name>
+   <tag></tag>
+   <elementGuidId>90f32c44-aebc-4b7c-abdb-3fe53ff701cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body > div:nth-child(67) > div.xdsoft_datepicker.active > div.xdsoft_mounthpicker > div.xdsoft_label.xdsoft_month > div > div:nth-child(1) > div:nth-child(12)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Save Selected'])[4]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bd3490bf-94fb-47af-9b6b-313669dc9f20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>11</value>
+      <webElementGuid>c2882317-e3d7-4847-bc19-224c88beef14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;xdsoft_datetimepicker xdsoft_noselect xdsoft_&quot;]/div[@class=&quot;xdsoft_datepicker active&quot;]/div[@class=&quot;xdsoft_mounthpicker&quot;]/div[@class=&quot;xdsoft_label xdsoft_month&quot;]/span[1]</value>
+      <webElementGuid>9222c958-ffa0-471d-a26d-1f59f82d3c0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>xdsoft_option</value>
+      <webElementGuid>e8e068bc-fab8-44c1-abd4-d328b3df8761</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cc9a5b0a-44e5-4c67-8fed-d88b305ac55e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>11</value>
+      <webElementGuid>ab0f1c8d-c0ea-49bb-8bea-8de76ad480d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;xdsoft_datetimepicker xdsoft_noselect xdsoft_&quot;]/div[@class=&quot;xdsoft_datepicker active&quot;]/div[@class=&quot;xdsoft_mounthpicker&quot;]/div[@class=&quot;xdsoft_label xdsoft_month&quot;]/span[1]</value>
+      <webElementGuid>ca88aa6b-b7f0-489b-ae84-9fb4fb1d7371</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>xdsoft_option</value>
+      <webElementGuid>9a3c344c-ea8e-4429-9751-a9d011e08431</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save Selected'])[4]/following::span[1]</value>
+      <webElementGuid>5757e056-432f-4224-9516-fc62aac2e973</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>body > div:nth-child(67) > div.xdsoft_datepicker.active > div.xdsoft_mounthpicker > div.xdsoft_label.xdsoft_month > div > div:nth-child(1) > div:nth-child(12)</value>
+      <webElementGuid>5fe8b6ca-00c2-4f6e-b1bb-dae3c458496a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='January'])[5]/preceding::span[1]</value>
+      <webElementGuid>b432ab20-1de5-4c84-8152-cbab9071710f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='February'])[5]/preceding::span[1]</value>
+      <webElementGuid>5929befa-66fe-45e0-b910-57898f2cbdfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[17]/div[1]/div[1]/div[2]/span</value>
+      <webElementGuid>ba0c4a07-9066-47f7-91ab-84b92a946e29</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
