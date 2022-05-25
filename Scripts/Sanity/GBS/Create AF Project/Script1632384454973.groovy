@@ -35,7 +35,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_It-Right Platf
 
 WebUI.click(findTestObject('Page_It-Right Platform/span_GBS'))
 
-WebUI.delay(9)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_DIR/button_Technical Sourcing'))
 
@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Page_DIR/span_Flex_Organization'))
 
 WebUI.selectOptionByValue(findTestObject('Page_DIR/select_Organization'), 'FLEX', true)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Page_DIR/div_To Create Project   Drop GBS project'), 0)
 
@@ -53,33 +53,33 @@ WebUI.verifyElementPresent(findTestObject('Page_DIR/div_Choose Analysis Type'), 
 
 WebUI.click(findTestObject('Page_DIR/button_OK'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Page_DIR/div_Create Project'), 3)
 
 WebUI.click(findTestObject('Page_DIR/input__dueDate'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_DIR/span_Month'))
 
-WebUI.scrollToElement(findTestObject('Page_DIR/span_December (1)'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Page_DIR/span_MonthDecember'), 1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_DIR/span_December (1)'))
+WebUI.click(findTestObject('Page_DIR/span_MonthDecember'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_DIR/span_Year'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.scrollToElement(findTestObject('Page_DIR/span_2024 (1)'), 2)
+WebUI.scrollToElement(findTestObject('Page_DIR/span_Year2024'), 2)
 
-WebUI.click(findTestObject('Page_DIR/span_2024 (1)'))
+WebUI.click(findTestObject('Page_DIR/span_Year2024'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_DIR/div_31'))
+WebUI.click(findTestObject('Page_DIR/div_Date31'))
 
 WebUI.delay(2)
 
@@ -89,15 +89,13 @@ WebUI.scrollToElement(findTestObject('Page_DIR/button_Create'), 2)
 
 WebUI.click(findTestObject('Page_DIR/button_Create'))
 
-WebUI.delay(7)
+WebUI.delay(1)
 
 WebUI.waitForElementPresent(findTestObject('Page_DIR/div_Project success msg'), 3)
 
-WebUI.delay(3)
-
 WebUI.verifyElementPresent(findTestObject('Page_DIR/div_Project success msg'), 3)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.verifyElementPresent(findTestObject('Page_DIR/td_FileName_Dummy'), 2)
 

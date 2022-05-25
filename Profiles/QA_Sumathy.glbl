@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Sumathy\\File for Dummy MPN.xlsx'</initValue>
+      <initValue>'C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR2\\TestFiles\\File for Dummy MPN.xlsx'</initValue>
       <name>GBSAF_File</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,12 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Newvalue'</initValue>
-      <name>AF_Attribute</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'C:\\Sumathy\\REQ_SS_AF Check.xlsx'</initValue>
+      <initValue>'C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR2\\TestFiles\\REQ_SS_AF Check.xlsx'</initValue>
       <name>REQAF_File</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

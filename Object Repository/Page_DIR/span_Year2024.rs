@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_2024 (1)</name>
+   <name>span_Year2024</name>
    <tag></tag>
    <elementGuidId>1a1771b4-4c5f-4fab-93d9-973b9428b12f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>body > div:nth-child(67) > div.xdsoft_datepicker.active > div.xdsoft_mounthpicker > div.xdsoft_label.xdsoft_year > div > div:nth-child(1) > div:nth-child(75)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='December'])[5]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body > div:nth-child(67) > div.xdsoft_datepicker.active > div.xdsoft_mounthpicker > div.xdsoft_label.xdsoft_year > div > div:nth-child(1) > div:nth-child(75)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

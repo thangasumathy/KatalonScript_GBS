@@ -43,7 +43,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_DIR/select_Tech
     true)
 
 WebUI.delay(2)
-
+// Export from dashboard page
 WebUI.scrollToElement(findTestObject('Page_DIR/i_Project file-excel'), 2)
 
 WebUI.click(findTestObject('Page_DIR/i_Project file-excel'))
@@ -54,25 +54,27 @@ WebUI.click(findTestObject('Object Repository/Page_DIR/a_Both'))
 
 WebUI.verifyElementPresent(findTestObject('Page_DIR/div_To Create Project   Drop GBS project'), 0)
 
+// Export from project main page
+
 WebUI.click(findTestObject('Object Repository/Page_DIR/i_Project-folder-open'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/a_Back to Projects'), 3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/a_Back to Projects'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/a_PIR-TEST-0005'), 3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/a_PIR-TEST-0005'), 1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/button_Export'), 3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/button_Export'), 1)
 
 WebUI.click(findTestObject('Object Repository/Page_DIR/button_Export'))
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR/ul_Export Options_Project'), 3)
+WebUI.verifyElementPresent(findTestObject('Page_DIR/ul_Export Options_Project'), 2)
 
 WebUI.click(findTestObject('Page_DIR/a_Both_Project'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/a_PIR-TEST-0005'), 3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/a_PIR-TEST-0005'), 2)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/a_Back to Projects'), 3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DIR/a_Back to Projects'), 2) 
 
 WebUI.click(findTestObject('Object Repository/Page_DIR/a_Welcome Thangasumathy Jayakumar'))
 

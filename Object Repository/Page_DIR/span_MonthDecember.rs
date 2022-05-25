@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_December (1)</name>
+   <name>span_MonthDecember</name>
    <tag></tag>
    <elementGuidId>90f32c44-aebc-4b7c-abdb-3fe53ff701cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>body > div:nth-child(67) > div.xdsoft_datepicker.active > div.xdsoft_mounthpicker > div.xdsoft_label.xdsoft_month > div > div:nth-child(1) > div:nth-child(12)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Save Selected'])[4]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body > div:nth-child(67) > div.xdsoft_datepicker.active > div.xdsoft_mounthpicker > div.xdsoft_label.xdsoft_month > div > div:nth-child(1) > div:nth-child(12)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

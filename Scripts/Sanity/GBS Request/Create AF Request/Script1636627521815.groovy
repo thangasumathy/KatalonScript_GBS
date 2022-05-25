@@ -72,17 +72,17 @@ WebUI.click(findTestObject('Page_DIR/span_YearRequest'))
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Page_DIR/div_2024Request'), 2)
+WebUI.scrollToElement(findTestObject('Page_DIR/div_Year2024Request'), 2)
 
-WebUI.click(findTestObject('Page_DIR/div_2024Request'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_DIR/div_31Request'))
+WebUI.click(findTestObject('Page_DIR/div_Year2024Request'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_DIR/textarea_Comments_Request'), 'test rqst')
+WebUI.click(findTestObject('Page_DIR/div_Date31Request'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Page_DIR/textarea_Comments_Request'), 'Please Ignore. Test file created by DIR support team for testing purpose')
 
 WebUI.scrollToElement(findTestObject('Page_DIR/select_RequestType'), 2, FailureHandling.STOP_ON_FAILURE)
 
