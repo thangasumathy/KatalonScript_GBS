@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AF_Export</description>
+   <name>AF_Export_Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bff2b963-eca0-4dc6-9bf7-dccf1572de16</testCaseGuid>
+</TestCaseEntity>

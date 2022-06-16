@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Welcome Thangasumathy Jayakumar</name>
+   <tag></tag>
+   <elementGuidId>9b94431e-d66a-4458-88dc-769847252faa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='user-menu']/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#user-menu > a.nav-link.dropdown-toggle > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5790dd75-baa9-452e-a470-f4ce252ff17c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome Thangasumathy Jayakumar</value>
+      <webElementGuid>1df48249-75f3-49e3-bcd3-66911bde1808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-menu&quot;)/a[@class=&quot;nav-link dropdown-toggle&quot;]/span[1]</value>
+      <webElementGuid>21d9876a-385c-4985-b0bd-9ccbd08f66c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>033b7452-6886-4f35-aa35-af72952d8495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome Thangasumathy Jayakumar</value>
+      <webElementGuid>17398042-f047-4b52-8dcc-76ebc14265f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-menu&quot;)/a[@class=&quot;nav-link dropdown-toggle&quot;]/span[1]</value>
+      <webElementGuid>9a91b5b2-f600-4b86-a233-fa30c389da8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4b70221a-9c7d-49a9-9049-29f92f06512d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome Thangasumathy Jayakumar</value>
+      <webElementGuid>a3679a8d-895a-45c2-b5c8-083a202ee9fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-menu&quot;)/a[@class=&quot;nav-link dropdown-toggle&quot;]/span[1]</value>
+      <webElementGuid>2fa68821-87cd-4fc5-a4c3-8bbde27c9f6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f63021b5-a6c5-42f0-8824-11f55691d5d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome Thangasumathy Jayakumar</value>
+      <webElementGuid>6f0728ef-48f9-41fd-aca2-fba6796f8e2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-menu&quot;)/a[@class=&quot;nav-link dropdown-toggle&quot;]/span[1]</value>
+      <webElementGuid>6ef94b45-4fda-4235-b21f-28dafbac4be4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='user-menu']/a/span</value>
+      <webElementGuid>f66b5b5b-f408-4983-97a3-b41c3b22c3a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DIR: Contact Support / Share idea'])[1]/following::span[1]</value>
+      <webElementGuid>891cfc6e-c275-44ef-bc8a-3029bed67a0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PIR: Share Suggestion / Idea'])[1]/following::span[2]</value>
+      <webElementGuid>dd28c0ef-bcf1-4dee-beee-34a84f054b2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::span[1]</value>
+      <webElementGuid>dc593afc-4291-4988-af0b-fd03396d9af3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome Thangasumathy Jayakumar']/parent::*</value>
+      <webElementGuid>805dc75e-7a21-476e-868b-fdb579927aef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/span</value>
+      <webElementGuid>1d614c0a-cf23-4e5c-a1f5-ab8266e0312d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Welcome Thangasumathy Jayakumar' or . = 'Welcome Thangasumathy Jayakumar')]</value>
+      <webElementGuid>1625b5a9-82c4-409d-859a-da32c8dba6f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

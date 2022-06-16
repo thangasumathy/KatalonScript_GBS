@@ -25,24 +25,38 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ca1f2340-04e9-49a6-8e41-16378c095b14</guid>
+      <guid>97e2fa43-2fb8-4e03-9fec-8c1a7b354f67</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity/GBS/AF_Review_Save</testCaseId>
+      <testCaseId>Test Cases/Sanity/GBS/AF_Review_Verify</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2eb4d38b-40b7-4933-8f28-3a1ee21c5c57</guid>
+      <guid>bb7f30bc-20a6-430b-822c-8bf09bbd2e11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity/GBS/AF_Review_RevertSave</testCaseId>
+      <testCaseId>Test Cases/Checklist/GBS/AF_Review_Save</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc40b250-350c-4247-a5de-5ce570527ae0</guid>
+      <guid>d6604f0c-5ef7-43c0-8715-67611915b2b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity/GBS/AF_Export</testCaseId>
+      <testCaseId>Test Cases/Checklist/GBS/AF_Review_RevertSave</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8cbc0458-3046-4da0-8181-3103f728502c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity/GBS/AF_Export_Dashboard</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ebddf29-3357-479b-9cf6-5ecc9e82dba7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checklist/GBS/AF_Export_Mainpage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -50,6 +64,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity/GBS Request/Create AF Request</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f008017-b3c5-4c12-a57e-c805770fca9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity/Supplier Finder/Check Data and Export</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4638f629-8871-4e10-af14-5a7fe83676e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity/Supplier Finder/Apply Filter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

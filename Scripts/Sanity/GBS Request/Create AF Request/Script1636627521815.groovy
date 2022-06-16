@@ -23,86 +23,85 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page_It-Right Platform/Username'), GlobalVariable.username)
+WebUI.setText(findTestObject('Page_It-Right Platform_GBS/Username'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('Page_It-Right Platform/password'), GlobalVariable.pwd)
+WebUI.setEncryptedText(findTestObject('Page_It-Right Platform_GBS/password'), GlobalVariable.pwd)
 
-WebUI.click(findTestObject('Page_It-Right Platform/button_Sign in'))
+WebUI.click(findTestObject('Page_It-Right Platform_GBS/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_It-Right Platform/span_WelcomeToggler'))
+WebUI.click(findTestObject('Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_It-Right Platform/div_WelcomeMenu'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_DIR/span_GBS Project Request'))
+WebUI.click(findTestObject('Object Repository/Page_DIR_GBS/GBS_Request/span_GBS Project Request'))
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR/div_To Create Request'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS_Request/div_To Create Request'), 2)
 
-WebUI.uploadFileWithDragAndDrop(findTestObject('Page_DIR/div_To Create Request'), GlobalVariable.REQAF_File)
+WebUI.uploadFileWithDragAndDrop(findTestObject('Page_DIR_GBS/GBS_Request/div_To Create Request'), GlobalVariable.REQAF_File)
 
 WebUI.delay(2)
 
-// WebUI.click(findTestObject('Object Repository/Page_DIR/a_upload it from directory'))
-WebUI.verifyElementPresent(findTestObject('Page_DIR/div_Choose Analysis Type'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS_Request/div_Choose Analysis Type_Request'), 2)
 
-WebUI.click(findTestObject('Object Repository/Page_DIR/button_OK'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/button_OK_Request'))
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR/div_Project Request Details'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS_Request/div_Project Request Details'), 2)
 
-WebUI.click(findTestObject('Page_DIR/button_Please select site'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/button_Please select site'))
 
-WebUI.click(findTestObject('Page_DIR/span_012 - PCBA KALLANG, SINGAPORE (012)'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/span_012 - PCBA KALLANG, SINGAPORE (012)'))
 
-WebUI.click(findTestObject('Page_DIR/button_Customer'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/button_Customer'))
 
-WebUI.click(findTestObject('Page_DIR/span_3M COMPANY'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/span_3M COMPANY'))
 
-WebUI.click(findTestObject('Page_DIR/input__dueDateRequest'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/input__dueDateRequest'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_DIR/span_MonthRequest'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/span_MonthRequest'))
 
-WebUI.scrollToElement(findTestObject('Page_DIR/div_DecemberRequest'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Page_DIR_GBS/GBS_Request/div_DecemberRequest'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_DIR/div_DecemberRequest'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_DIR/span_YearRequest'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/div_DecemberRequest'))
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Page_DIR/div_Year2024Request'), 2)
-
-WebUI.click(findTestObject('Page_DIR/div_Year2024Request'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/span_YearRequest'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_DIR/div_Date31Request'))
+WebUI.scrollToElement(findTestObject('Page_DIR_GBS/GBS_Request/div_Year2024Request'), 2)
+
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/div_Year2024Request'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_DIR/textarea_Comments_Request'), 'Please Ignore. Test file created by DIR support team for testing purpose')
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/div_Date31Request'))
 
-WebUI.scrollToElement(findTestObject('Page_DIR/select_RequestType'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Page_DIR/select_RequestType'), 'GBS', true)
+WebUI.setText(findTestObject('Page_DIR_GBS/GBS_Request/textarea_Comments_Request'), 'Please Ignore. Test file created by DIR support team for testing purpose')
 
-WebUI.selectOptionByValue(findTestObject('Page_DIR/select_Application'), 'MILITARY', true)
+WebUI.scrollToElement(findTestObject('Page_DIR_GBS/GBS_Request/select_RequestType'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_DIR/button_CreateRequest'))
+WebUI.selectOptionByValue(findTestObject('Page_DIR_GBS/GBS_Request/select_RequestType'), 'GBS', true)
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR/div_SuccessProject Request'), 4)
+WebUI.selectOptionByValue(findTestObject('Page_DIR_GBS/GBS_Request/select_Application'), 'MILITARY', true)
 
-WebUI.click(findTestObject('Object Repository/Page_DIR/button_OK'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS_Request/button_CreateRequest'))
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR/div_AFSelfServiceAlert'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS_Request/div_SuccessProject Request'), 4)
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR/div_AFSelfServiceEmail'), 2)
+WebUI.click(findTestObject('Object Repository/Page_DIR_GBS/GBS Project/button_OK'))
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR/div_To Create Request'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS_Request/div_AFSelfServiceAlert'), 2)
 
-WebUI.click(findTestObject('Page_DIR/span_Welcome Thangasumathy Jayakumar'))
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS_Request/div_AFSelfServiceEmail'), 2)
 
-WebUI.click(findTestObject('Page_DIR/a_Logout'))
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS_Request/div_To Create Request'), 0)
+
+WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/span_Welcome Thangasumathy Jayakumar'))
+
+WebUI.click(findTestObject('Page_DIR_GBS/a_Logout'))
 

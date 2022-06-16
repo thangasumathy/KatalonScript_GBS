@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_VPGroupValue</name>
+   <tag></tag>
+   <elementGuidId>61039ff6-5719-4030-82c2-c6d2f2213ef9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='supplier-data']/tbody/tr/td[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>b7c16469-117c-43e0-9ba8-5d298c10937d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MEMORY STORAGE PRODUCT GROUP</value>
+      <webElementGuid>f68d819b-3b45-47f3-8b6b-c3befff174b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;supplier-data&quot;)/tbody[1]/tr[1]/td[5]</value>
+      <webElementGuid>7260a526-d837-4765-bb85-b8f6d50b6111</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='supplier-data']/tbody/tr/td[5]</value>
+      <webElementGuid>d5081a6c-b4a3-4277-953b-a6c9bdeb62c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PREFERRED'])[1]/following::td[1]</value>
+      <webElementGuid>95aeff07-385b-4bb1-9c9e-b6c70076b67e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DISTRIBUTOR'])[10]/following::td[2]</value>
+      <webElementGuid>fa289b49-6a6f-41f1-b2b1-ce261821ec8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ELECTRICAL'])[1]/preceding::td[1]</value>
+      <webElementGuid>05d8d623-9dad-4087-bc21-e2f48fca6e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALL'])[5]/preceding::td[2]</value>
+      <webElementGuid>54b82427-f573-4d5b-820f-bd4b1cad399b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]</value>
+      <webElementGuid>e81dc115-8e39-404c-b6de-c79c6f50c9a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'MEMORY STORAGE PRODUCT GROUP' or . = 'MEMORY STORAGE PRODUCT GROUP')]</value>
+      <webElementGuid>02b8005c-2bb0-443a-a1f4-c1a738248893</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

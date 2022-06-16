@@ -33,11 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_It-Right Platform_GBS/span_We
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu'), 0)
 
-WebUI.scrollToElement(findTestObject('Page_It-Right Platform_GBS/span_GBS'), 0)
-
-WebUI.waitForElementClickable(findTestObject('Page_It-Right Platform_GBS/span_GBS'), 0)
-
-WebUI.click(findTestObject('Page_It-Right Platform_GBS/span_GBS'))
+WebUI.click(findTestObject('Object Repository/Page_It-Right Platform_GBS/span_GBS'))
 
 WebUI.delay(2)
 
@@ -49,61 +45,42 @@ WebUI.selectOptionByValue(findTestObject('Page_DIR_GBS/GBS Project/select_Organi
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project'), 0)
+WebUI.scrollToElement(findTestObject('Page_DIR_GBS/GBS Project/i_Project-folder-open'), 2)
 
-WebUI.uploadFileWithDragAndDrop(findTestObject('Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project'), GlobalVariable.GBSAF_File)
+WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/i_Project-folder-open'))
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/div_Choose Analysis Type'), 3)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/button_OK'))
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects'), 2)
 
-WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005'), 2)
 
-WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/div_Create Project'), 3)
+WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain'))
 
-WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/input__dueDate'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/span_Month'))
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review'), 2)
 
-WebUI.scrollToElement(findTestObject('Page_DIR_GBS/GBS Project/span_MonthDecember'), 1, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005'), 0)
 
-WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/span_MonthDecember'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category'))
 
-WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category'), 2)
 
-WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/span_Year'))
+WebUI.setText(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category'), 'cer')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_Ceramic Capacitor'))
 
-WebUI.scrollToElement(findTestObject('Page_DIR_GBS/GBS Project/span_Year2024'), 2)
+WebUI.selectOptionByValue(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/select_Commodity'), 'Ceramic Capacitor', 
+    true)
 
-WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/span_Year2024'))
+WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow'))
 
-WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects'), 2)
 
-WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/div_Date31'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Page_DIR_GBS/GBS Project/textarea_Comments_comments'), 'Test')
-
-WebUI.scrollToElement(findTestObject('Page_DIR_GBS/GBS Project/button_Create'), 2)
-
-WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/button_Create'))
-
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Page_DIR_GBS/GBS Project/div_Project success msg'), 3)
-
-WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/div_Project success msg'), 3)
-
-WebUI.delay(1)
-
-WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/td_FileName_Dummy'), 2)
-
-WebUI.verifyElementAttributeValue(findTestObject('Page_DIR_GBS/GBS Project/td_FileName_Dummy'), 'text', GlobalVariable.GBSAF_FileName, 3)
+WebUI.verifyElementPresent(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005'), 2)
 
 WebUI.click(findTestObject('Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/span_Welcome Thangasumathy Jayakumar'))
 
