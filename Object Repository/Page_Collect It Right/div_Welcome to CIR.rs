@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Welcome to CIR</name>
+   <tag></tag>
+   <elementGuidId>8a7b1344-9978-457f-a63f-d0b96be524ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cir-welcome']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.header.mb-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>39c1d6a7-16c0-498f-9bee-9b0d399333bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header mb-3</value>
+      <webElementGuid>e23d7e5a-dd79-4b09-81bb-c3737e0c2347</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to CIR!</value>
+      <webElementGuid>c549abe5-ba3f-4916-88fe-8161897905d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cir-welcome&quot;)/div[@class=&quot;header mb-3&quot;]</value>
+      <webElementGuid>0f902d0a-2dce-461f-9c62-47b420e26049</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e73ae0ae-3dc3-4aa7-8174-da7811bfbf3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header mb-3</value>
+      <webElementGuid>2792c134-49ea-4a82-85e7-470d6e2e1905</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to CIR!</value>
+      <webElementGuid>0fdb27a1-b5e9-44d9-b8b7-f2aa920b472c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cir-welcome&quot;)/div[@class=&quot;header mb-3&quot;]</value>
+      <webElementGuid>25e42d3e-0c5b-46ee-ae1a-b07d13e33934</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>31b94514-758e-49ac-9cc1-c34245c51a7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header mb-3</value>
+      <webElementGuid>16a66b02-be49-4a5e-9cfc-2bf1a1eeecf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to CIR!</value>
+      <webElementGuid>49e02468-9aca-4a62-94d3-abab905e8f99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cir-welcome&quot;)/div[@class=&quot;header mb-3&quot;]</value>
+      <webElementGuid>155065ac-94df-4a8a-a0ba-92a4e3471ff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9f43d070-a4ac-4d72-9e20-56d84ebb8866</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header mb-3</value>
+      <webElementGuid>c9317a3e-bb3e-4ef4-bc1a-70fff06b9e02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to CIR!</value>
+      <webElementGuid>4ff0ea79-95eb-4cba-8eac-c8a400218b2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cir-welcome&quot;)/div[@class=&quot;header mb-3&quot;]</value>
+      <webElementGuid>7c22acfd-4023-4e29-bebb-5d343239b136</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cir-welcome']/div</value>
+      <webElementGuid>816f2de6-1b6b-486b-aacc-cfacd99d2257</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export'])[3]/following::div[4]</value>
+      <webElementGuid>c6604c92-00be-4e20-acdb-3c46db32d559</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rebate automatization'])[1]/following::div[4]</value>
+      <webElementGuid>1eb86a8b-a671-4173-b27d-12a314aacbbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='menu'])[1]/preceding::div[1]</value>
+      <webElementGuid>8025314d-0a76-4486-b8c4-2d0f7d60b1f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BOM PULSE'])[1]/preceding::div[1]</value>
+      <webElementGuid>ea822440-b8c0-4b4c-849a-b502871693fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome to CIR!']/parent::*</value>
+      <webElementGuid>6a81356f-4571-425d-afd2-4c078f32f50d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div/div</value>
+      <webElementGuid>23e535f6-df4d-4aa5-973d-ba197ec140c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Welcome to CIR!' or . = 'Welcome to CIR!')]</value>
+      <webElementGuid>54fcbfbb-9a44-4ed4-b05e-553bf7c4ae57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
